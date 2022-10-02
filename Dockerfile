@@ -1,0 +1,8 @@
+FROM node:16
+
+ENV WORK_HOME /home
+RUN mkdir $WORK_HOME
+WORKDIR $WORK_HOME
+
+COPY . .
+
